@@ -64,7 +64,7 @@ function App() {
       setTarea(item.name);
       setID(item.id);
     } else {
-      setModoEdit(false);
+      setModoEdit(modo);
       setTarea("");
     }
   };
